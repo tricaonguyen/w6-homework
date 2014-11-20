@@ -1,0 +1,177 @@
+/*  View example button styles here: http://hellohappy.org/css3-buttons/ 
+    Then view their code here:  https://github.com/ubuwaits/css3-buttons
+    Pick two that you like, and copy the css code from repo to style the two buttons on index.html. */
+   
+/*CSS reset*/
+html, body, p, div, nav, header, footer, article, section, img, h1, h2, h3, li, ul {
+	margin: 0;
+	padding: 0;
+}
+
+/*page layouts*/
+html {
+	background: rgb(189, 195, 199);
+}
+
+body {
+	width: 80%;
+	margin: 1em auto;
+	max-width: 1180px;
+	min-width: 860px;
+	font-family: Arial, Helvetica, sans-serif;
+	box-shadow: 0px 0.3em 1em #000;
+}
+
+header nav ul {
+	display: table;
+	width: 100%;
+	text-align: center;
+}
+
+header nav ul li {
+	list-style: none;
+	text-transform: uppercase;
+	display: table-cell;
+	padding: 5px 10px;
+	border: 1px solid white;
+	background: rgb(244, 166, 42);
+}
+
+.main {
+	-webkit-column-count: 2;
+	-webkit-column-gap: 64px;
+	-webkit-column-rule: 2px dotted rgb(22, 160, 133);
+	-moz-column-count: 2;
+	-moz-column-gap: 64px;
+	-moz-column-rule: 2px dotted rgb(22, 160, 133);
+	margin-top: 30px;
+}
+
+footer {
+	margin-top: 25px;
+	background: rgb(38, 194, 129);
+	line-height: 30px;
+	text-align: center;
+}
+/*document styles*/
+h1 {
+	background: rgb(46, 142, 206);
+	line-height: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(251, 252, 252);
+}
+
+a {
+	text-decoration: none;
+	color: rgb(251, 252, 252);
+}
+
+#output-here {
+	background: rgb(31, 58, 147);
+	color: rgb(251, 252, 252);
+	text-align: center;
+	width: 170px;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+/*first button styles*/
+
+#sign-in {
+	margin: 5px;
+}
+
+button.cupid-green {
+  background-color: #7fbf4d;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f));
+  background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -o-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: linear-gradient(top, #7fbf4d, #63a62f);
+  border: 1px solid #63a62f;
+  border-bottom: 1px solid #5b992b;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
+  box-shadow: inset 0 1px 0 0 #96ca6d;
+  color: #fff;
+  font: bold 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  padding: 7px 0 8px 0;
+  text-align: center;
+  text-shadow: 0 -1px 0 #4c9021;
+  width: 150px; }
+  button.cupid-green:hover {
+    background-color: #76b347;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
+    background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -moz-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -ms-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -o-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: linear-gradient(top, #76b347, #5e9e2e);
+    -webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
+    box-shadow: inset 0 1px 0 0 #8dbf67;
+    cursor: pointer; }
+  button.cupid-green:active {
+    border: 1px solid #5b992b;
+    border-bottom: 1px solid #538c27;
+    -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+    box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee; }
+    
+/*second button styles*/
+
+button.shiny-blue {
+  background-color: #759ae9;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #759ae9), color-stop(50%, #376fe0), color-stop(50%, #1a5ad9), color-stop(100%, #2463de));
+  background-image: -webkit-linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
+  background-image: -moz-linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
+  background-image: -ms-linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
+  background-image: -o-linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
+  background-image: linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
+  border-top: 1px solid #1f58cc;
+  border-right: 1px solid #1b4db3;
+  border-bottom: 1px solid #174299;
+  border-left: 1px solid #1b4db3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
+  box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
+  color: #fff;
+  font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;
+  padding: 7px 0;
+  text-shadow: 0 -1px 1px #1a5ad9;
+  width: 150px; }
+  button.shiny-blue:hover {
+    background-color: #5d89e8;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5d89e8), color-stop(50%, #2261e0), color-stop(50%, #044bd9), color-stop(100%, #0d53de));
+    background-image: -webkit-linear-gradient(top, #5d89e8 0%, #2261e0 50%, #044bd9 50%, #0d53de 100%);
+    background-image: -moz-linear-gradient(top, #5d89e8 0%, #2261e0 50%, #044bd9 50%, #0d53de 100%);
+    background-image: -ms-linear-gradient(top, #5d89e8 0%, #2261e0 50%, #044bd9 50%, #0d53de 100%);
+    background-image: -o-linear-gradient(top, #5d89e8 0%, #2261e0 50%, #044bd9 50%, #0d53de 100%);
+    background-image: linear-gradient(top, #5d89e8 0%, #2261e0 50%, #044bd9 50%, #0d53de 100%);
+    cursor: pointer; }
+  button.shiny-blue:active {
+    border-top: 1px solid #1b4db3;
+    border-right: 1px solid #174299;
+    border-bottom: 1px solid #133780;
+    border-left: 1px solid #174299;
+    -webkit-box-shadow: inset 0 0 5px 2px #1a47a0, 0 1px 0 #eeeeee;
+    box-shadow: inset 0 0 5px 2px #1a47a0, 0 1px 0 #eeeeee; }
+    
+/*third button styles*/
+button.click-me {
+	background: rgb(219, 10, 91);
+	font-family: Cambria;
+	font-size: 14px;
+	color: white;
+	width: 150px;
+	padding: 5px 0;
+	border-radius: 5px;
+	transition-duration: .6s;
+}
+
+button.click-me:hover {
+	background: rgb(65, 131, 215);
+	padding: 10px 0;
+	font-size: 18px;
+	transition-property: background, padding, font-size;
+}
