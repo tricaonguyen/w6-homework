@@ -67,6 +67,11 @@ a {
 	color: rgb(251, 252, 252);
 }
 
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
 #output-here {
 	background: rgb(31, 58, 147);
 	color: rgb(251, 252, 252);
